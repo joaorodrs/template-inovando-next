@@ -1,0 +1,8 @@
+{
+    "src/**/*.tsx": [
+        "yarn eslint"
+    ],
+    "src/**/*.ts": [
+        "yarn eslint"
+    ]
+}
