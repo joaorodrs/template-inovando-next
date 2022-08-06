@@ -6,6 +6,7 @@ import {
   MdSupervisedUserCircle,
   MdVerifiedUser,
 } from "react-icons/md";
+import { ImProfile } from "react-icons/im";
 
 type MenuItem = {
   icon?: As<any> | undefined;
@@ -32,6 +33,22 @@ export const menu: MenuItem[] = [
       {
         text: "Create",
         href: "/users/new",
+        icon: MdAdd,
+      },
+    ],
+  },
+  {
+    icon: ImProfile,
+    text: "Profiles",
+    children: [
+      {
+        text: "Listing",
+        href: "/profiles",
+        icon: MdList,
+      },
+      {
+        text: "Create",
+        href: "/profiles/new",
         icon: MdAdd,
       },
     ],
