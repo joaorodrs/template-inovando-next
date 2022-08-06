@@ -37,6 +37,22 @@ export const menu: MenuItem[] = [
     ],
   },
   {
+    icon: MdSupervisedUserCircle,
+    text: "Profiles",
+    children: [
+      {
+        text: "Listing",
+        href: "/profiles",
+        icon: MdList,
+      },
+      {
+        text: "Create",
+        href: "/profiles/new",
+        icon: MdAdd,
+      },
+    ],
+  },
+  {
     icon: MdVerifiedUser,
     href: "/me",
     text: "Profile",
